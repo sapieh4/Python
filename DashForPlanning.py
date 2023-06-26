@@ -15,7 +15,7 @@ app = dash.Dash(__name__, external_stylesheets=es)
 
 
 #zapytanie sql-------------------------------------------------------------------
-conn = pymssql.connect(server='10.10.10.81:1433', user='ADAMPOL\dsapieha', password='Lipiec2323' , database='TLS_Metrics')
+conn = pymssql.connect(server='***', user='***', password='***' , database='***')
 
 df = pd.read_sql_query(
 
