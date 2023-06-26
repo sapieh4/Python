@@ -13,8 +13,8 @@ print(yesterday_date)
 yesterday_date_formated = yesterday_date.strftime("%d.%m.%Y")
 date_time = datetime.now()
 
-EMAIL_ADDRESS = 'reporting@bunasta.eu'
-EMAIL_PASSWORD = '$rIn3hPB_roiUY7'
+EMAIL_ADDRESS = '***'
+EMAIL_PASSWORD = '***'
 
 script_running_df = pd.read_excel('Script running list.xlsx')
 
@@ -26,11 +26,11 @@ try:
 	#     ERP PROD DB        #
 	##########################
 
-	POSTGRES_ADDRESS = '192.168.203.205'
-	POSTGRES_PORT = '5432'
-	POSTGRES_USERNAME = 'Service'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES USERNAME
-	POSTGRES_PASSWORD = 'pMk1U3VxQi4aA66ufGaC'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES PASSWORD
-	POSTGRES_DBNAME = 'prod'  ## CHANGE THIS TO YOUR DATABASE NAME
+	POSTGRES_ADDRESS = '***'
+	POSTGRES_PORT = '***'
+	POSTGRES_USERNAME = '***'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES USERNAME
+	POSTGRES_PASSWORD = '***'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES PASSWORD
+	POSTGRES_DBNAME = '***'  ## CHANGE THIS TO YOUR DATABASE NAME
 
 	# A long string that contains the necessary Postgres login information
 	postgres_str = ('postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}').format(username=POSTGRES_USERNAME,
