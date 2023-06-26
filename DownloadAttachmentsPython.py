@@ -15,11 +15,11 @@ webbrowser.register('chrome',
 #     ERP PROD DB        #
 ##########################
 
-POSTGRES_ADDRESS = '192.168.203.205'
-POSTGRES_PORT = '5432'
-POSTGRES_USERNAME = 'Service'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES USERNAME
+POSTGRES_ADDRESS = '***'
+POSTGRES_PORT = '***'
+POSTGRES_USERNAME = '***'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES USERNAME
 POSTGRES_PASSWORD = '***'  ## CHANGE THIS TO YOUR PANOPLY/POSTGRES PASSWORD
-POSTGRES_DBNAME = 'prod'  ## CHANGE THIS TO YOUR DATABASE NAME
+POSTGRES_DBNAME = '***'  ## CHANGE THIS TO YOUR DATABASE NAME
 
 # A long string that contains the necessary Postgres login information
 postgres_str = ('postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}').format(username=POSTGRES_USERNAME,
