@@ -9,7 +9,6 @@ import openpyxl
 # connect database and get data--------------------
 
 ##########################
-#     ERP PROD DB        #
 ##########################
 
 POSTGRES_ADDRESS = '***'
